@@ -1,0 +1,8 @@
+# Telegram Bot Configuration
+# Replace the values below with your actual bot credentials
+
+# Bot username (without the @ symbol)
+bot.username=your_bot_username
+
+# Bot token obtained from @BotFather
+bot.token=your_bot_token_here 

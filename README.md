@@ -29,7 +29,11 @@ git clone https://github.com/debbycclu/telegram_api_test.git
 cd telegram_api_test
 ```
 
-2. Configure your bot token in the appropriate configuration file
+2. Configure your bot:
+   - Copy `src/main/resources/config.properties.sample` to `src/main/resources/config.properties`
+   - Edit `config.properties` and replace the placeholder values with your actual bot credentials:
+     - `bot.username`: Your bot's username (without @)
+     - `bot.token`: Your bot token from @BotFather
 
 3. Build the project:
 ```bash
@@ -49,8 +53,4 @@ mvn exec:java
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+Feel free to submit issues and enhancement requests. 
